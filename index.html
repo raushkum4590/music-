@@ -100,49 +100,7 @@
             width: 70px;
             text-transform: capitalize;
         }
-        #sidebar {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #333;
-            overflow-x: hidden;
-            transition: 0.5s;
-            padding-top: 60px;
-        }
-
-        #sidebar a {
-            padding: 15px 10px 15px 30px;
-            text-decoration: none;
-            font-size: 20px;
-            color: #818181;
-            display: block;
-            transition: 0.3s;
-        }
-
-        #sidebar a:hover {
-            color: #f1f1f1;
-        }
-
-        #sidebar .close-btn {
-            position: absolute;
-            top: 0;
-            right: 25px;
-            font-size: 36px;
-            margin-left: 50px;
-        }
-
-        #hamburger-icon {
-            font-size: 30px;
-            cursor: pointer;
-            color: #fff;
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 2;
-        }
+        
     </style>
 </head>
 <body>
@@ -153,7 +111,7 @@
         <a href="#">Your Library</a>
     </div>
 
-    <div id="hamburger-icon" onclick="openSidebar()">☰</div>
+
 
     
     
@@ -459,6 +417,8 @@ songItems.forEach((songItem, index) => {
         }
     });
 });
+
+
    </script>
 </body>
 </html>
